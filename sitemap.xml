@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://polaris02310.github.io/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Paper: Temporal Causality Graphs (2026) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/temporal-causality-graphs/</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/temporal-causality-graphs/paper.pdf</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: Real-Time Generative AR (2026) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/realtime-generative-ar/</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/realtime-generative-ar/paper.pdf</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: From Generators to Worlds (2026) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/from-generators-to-worlds/</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/from-generators-to-worlds/paper.pdf</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: Towards Persistent World Models (2026) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/persistent-world-models/</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/persistent-world-models/paper.pdf</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: Multimodal Supervisory Graphs (2026) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/multimodal-supervisory-graphs/</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/multimodal-supervisory-graphs/paper.pdf</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: Counterfactual World Models (2025) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/counterfactual-world-models/</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/counterfactual-world-models/paper.pdf</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: Interactive 3D Editing (2025) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/interactive-3d-editing/</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/interactive-3d-editing/paper.pdf</loc>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Paper: Geometry-Grounded Video Generation (2025) -->
+  <url>
+    <loc>https://polaris02310.github.io/papers/geometry-grounded-video/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://polaris02310.github.io/papers/geometry-grounded-video/paper.pdf</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
