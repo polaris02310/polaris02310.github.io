@@ -3,20 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Generation — Reading List</title>
+  <meta name="description" content="A curated collection of papers on generative world models, geometry-grounded video generation, and persistent 3D representations." />
 
-  <!-- ══════════════════════════════════════════════════════════
-       REPLACE: Update title and description with your own name
-       ══════════════════════════════════════════════════════════ -->
-  <title>[YOUR NAME] — Research</title>
-  <meta name="description" content="Academic research website of [YOUR NAME]. Research on generative world models, geometry-grounded video generation, and persistent 3D scene representations." />
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Video Generation — Reading List" />
+  <meta property="og:description" content="Curated papers on generative world models, geometry-grounded video, and interactive 3D systems." />
+  <meta property="og:url"         content="https://polaris02310.github.io/" />
 
-  <!-- Open Graph (social sharing) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="[YOUR NAME] — Research" />
-  <meta property="og:description" content="Publications in generative world models, geometry-aware generation, and interactive 3D systems." />
-  <meta property="og:url" content="https://polaris02310.github.io/" />
-
-  <!-- Do NOT add citation_* meta tags on the homepage — only on individual paper pages -->
+  <!-- Do NOT add citation_* meta tags on the homepage -->
 
   <link rel="stylesheet" href="styles.css" />
   <link rel="canonical" href="https://polaris02310.github.io/" />
@@ -26,12 +22,8 @@
 <header class="site-header">
   <div class="site-container">
     <nav>
-      <!-- REPLACE: your name here -->
-      <span class="site-name">[YOUR NAME]</span>
-      <a href="index.html">Home</a>
-      <a href="#publications">Publications</a>
-      <!-- REPLACE: add links to CV, Google Scholar, GitHub, email as needed -->
-      <a href="mailto:you@example.com">Email</a>
+      <span class="site-name">Video Generation — Reading List</span>
+      <a href="#papers">Papers</a>
     </nav>
   </div>
 </header>
@@ -39,186 +31,129 @@
 <div class="site-container">
   <main>
 
-    <!-- ════════════════════════════════════════════
-         PROFILE / BIO SECTION
-         REPLACE all placeholder values below
-         ════════════════════════════════════════════ -->
-    <section class="profile" aria-label="Researcher profile">
-
-      <!-- REPLACE: swap for a real photo at /assets/photo.jpg, or remove this block -->
-      <div class="profile-photo-placeholder" aria-hidden="true">Photo</div>
-
-      <div class="profile-info">
-        <!-- REPLACE: your full name -->
-        <h1>[YOUR NAME]</h1>
-
-        <!-- REPLACE: your affiliation / position -->
-        <p class="affiliation">[Position], [Department] · [University / Institution]</p>
-
-        <!-- REPLACE: 2–4 sentence bio -->
-        <p class="bio">
-          I am a researcher working on [RESEARCH AREA].
-          My work focuses on [KEY THEMES — e.g., generative world models, geometry-grounded video synthesis,
-          and persistent 3D scene representations for interactive AI systems].
-          I am interested in building systems that maintain spatial and temporal coherence across
-          long-horizon generation and interactive editing tasks.
-        </p>
-
-        <div class="profile-links">
-          <!-- REPLACE: update href values with your real links -->
-          <a href="mailto:you@example.com">Email</a>
-          <a href="https://scholar.google.com/citations?user=REPLACE_ME" target="_blank" rel="noopener">Google Scholar</a>
-          <a href="https://github.com/polaris02310" target="_blank" rel="noopener">GitHub</a>
-          <!-- <a href="/assets/cv.pdf">CV</a> -->
-        </div>
-      </div>
+    <section style="margin-bottom:2rem; padding-bottom:1.5rem; border-bottom:1px solid var(--color-border);">
+      <p style="color:var(--color-muted); font-size:0.95rem; line-height:1.6;">
+        A collection of papers on generative world models, geometry-grounded video synthesis,
+        persistent 3D scene representations, and interactive generation systems.
+        Each paper links to an individual page with abstract, PDF, and BibTeX.
+      </p>
     </section>
 
     <!-- ════════════════════════════════════════════
-         RESEARCH INTERESTS
-         REPLACE with your actual interests
+         PUBLICATIONS INDEX
+         Add new papers here — newest first.
          ════════════════════════════════════════════ -->
-    <section class="interests" aria-label="Research interests">
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Generative World Models</li>
-        <li>Geometry-Grounded Video Generation</li>
-        <li>Persistent 3D Representations</li>
-        <li>Interactive Scene Editing</li>
-        <li>Augmented Reality &amp; Spatial AI</li>
-        <li>Causal Consistency in Generative Systems</li>
-      </ul>
-    </section>
+    <section class="publications" id="papers" aria-label="Papers">
+      <h2>Papers</h2>
 
-    <!-- ════════════════════════════════════════════
-         PUBLICATIONS
-         Each paper entry links to its dedicated page.
-         Sort: newest first.
-         ════════════════════════════════════════════ -->
-    <section class="publications" id="publications" aria-label="Publications">
-      <h2>Publications</h2>
+      <!-- ── 2026 ──────────────────────────────── -->
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2026</div>
         <div class="paper-meta">
           <h3><a href="papers/temporal-causality-graphs/">Temporal Causality Graphs for Long-Horizon Generative World Simulation</a></h3>
           <p class="paper-authors">Tessa Norric, Patrick Orenfall</p>
-          <p class="paper-venue">2026</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/temporal-causality-graphs/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/temporal-causality-graphs/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/temporal-causality-graphs/">Page</a>
+            <a class="btn btn-pdf"   href="papers/temporal-causality-graphs/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2026</div>
         <div class="paper-meta">
           <h3><a href="papers/realtime-generative-ar/">Real-Time Generative Augmented Reality Systems: Design Principles for Geometry-Grounded, Context-Aware Generation</a></h3>
           <p class="paper-authors">Julien Caldrex, Elise Morvane</p>
-          <p class="paper-venue">2026</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/realtime-generative-ar/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/realtime-generative-ar/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/realtime-generative-ar/">Page</a>
+            <a class="btn btn-pdf"   href="papers/realtime-generative-ar/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2026</div>
         <div class="paper-meta">
           <h3><a href="papers/from-generators-to-worlds/">From Generators to Worlds: Stateful Foundations for Persistent and Interactive Generative Systems</a></h3>
           <p class="paper-authors">Alina Verroth, Ryan Kestrelon</p>
-          <p class="paper-venue">2026</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/from-generators-to-worlds/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/from-generators-to-worlds/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/from-generators-to-worlds/">Page</a>
+            <a class="btn btn-pdf"   href="papers/from-generators-to-worlds/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2026</div>
         <div class="paper-meta">
           <h3><a href="papers/persistent-world-models/">Towards Persistent World Models for Generative Media: Geometry, Identity, Physics, and Interaction as First-Class Constraints</a></h3>
           <p class="paper-authors">Julien Caldrex, Ryan Kestrelon</p>
-          <p class="paper-venue">2026</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/persistent-world-models/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/persistent-world-models/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/persistent-world-models/">Page</a>
+            <a class="btn btn-pdf"   href="papers/persistent-world-models/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2026</div>
         <div class="paper-meta">
           <h3><a href="papers/multimodal-supervisory-graphs/">Multimodal Supervisory Graphs for Persistent World Modeling in Generative AI</a></h3>
           <p class="paper-authors">Marcus Elvain, Howard Pellorin</p>
-          <p class="paper-venue">2026</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/multimodal-supervisory-graphs/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/multimodal-supervisory-graphs/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/multimodal-supervisory-graphs/">Page</a>
+            <a class="btn btn-pdf"   href="papers/multimodal-supervisory-graphs/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
+      <!-- ── 2025 ──────────────────────────────── -->
+
       <article class="paper-entry">
         <div class="paper-year-badge">2025</div>
         <div class="paper-meta">
           <h3><a href="papers/counterfactual-world-models/">Counterfactual World Models: Evaluating and Training Generative Systems via Intervention Consistency</a></h3>
           <p class="paper-authors">Irene Solvane</p>
-          <p class="paper-venue">2025</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/counterfactual-world-models/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/counterfactual-world-models/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/counterfactual-world-models/">Page</a>
+            <a class="btn btn-pdf"   href="papers/counterfactual-world-models/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2025</div>
         <div class="paper-meta">
           <h3><a href="papers/interactive-3d-editing/">Interactive 3D Editing as a Consistency Problem: Geometry-Aware Generation in Gaussian Scene Representations</a></h3>
           <p class="paper-authors">Tessa Norric, Daniel Iverton</p>
-          <p class="paper-venue">2025</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/interactive-3d-editing/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/interactive-3d-editing/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/interactive-3d-editing/">Page</a>
+            <a class="btn btn-pdf"   href="papers/interactive-3d-editing/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-      <!-- ─────────────────────────────────────── -->
       <article class="paper-entry">
         <div class="paper-year-badge">2025</div>
         <div class="paper-meta">
           <h3><a href="papers/geometry-grounded-video/">Geometry-Grounded Video Generation: Bridging 3D Structure, Temporal Coherence, and Controllability</a></h3>
           <p class="paper-authors">Alina Verroth</p>
-          <p class="paper-venue">2025</p>
           <div class="paper-links">
-            <a class="btn btn-paper" href="papers/geometry-grounded-video/">Paper Page</a>
-            <a class="btn btn-pdf" href="papers/geometry-grounded-video/paper.pdf">PDF</a>
+            <a class="btn btn-paper" href="papers/geometry-grounded-video/">Page</a>
+            <a class="btn btn-pdf"   href="papers/geometry-grounded-video/paper.pdf">PDF</a>
           </div>
         </div>
       </article>
 
-    </section><!-- /publications -->
+    </section>
 
   </main>
 </div>
 
 <footer class="site-footer">
   <div class="site-container">
-    <!-- REPLACE: your name -->
-    <p>&copy; 2026 [YOUR NAME] &mdash; Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></p>
+    <p>Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></p>
   </div>
 </footer>
 
